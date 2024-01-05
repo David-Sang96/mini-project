@@ -1,0 +1,25 @@
+{
+  "info": [
+    {
+      "id": 1,
+      "title": "What is useState?",
+      "content": "useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it",
+      "description": "useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.",
+      "categories": ["programming", "javascript"]
+    },
+    {
+      "id": 2,
+      "title": "What is useEffect?",
+      "content": "What does useEffect do? By using this Hook, you tell React that your component needs to do something after render.",
+      "description": "What does useEffect do? By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed (we'll refer to it as our “effect”), and call it later after performing the DOM updates.",
+      "categories": ["programming", "javascript"]
+    },
+    {
+      "id": 3,
+      "title": "What is useReducer?",
+      "content": "The useReducer Hook is used to store and update states, just like the useState Hook. It accepts a reducer function as its first parameter and the initial state as the second.",
+      "description": "The useReducer Hook is used to store and update states, just like the useState Hook. It accepts a reducer function as its first parameter and the initial state as the second. useReducer returns an array that holds the current state value and a dispatch function to which you can pass an action and later invoke it.",
+      "categories": ["programming", "javascript"]
+    }
+  ]
+}
